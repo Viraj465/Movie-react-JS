@@ -1,0 +1,52 @@
+.body {
+  background-color: rgb(52, 50, 50);
+}
+.navbar1 {
+  background-color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  position: static;
+}
+.navbar-name {
+  color: red;
+  font-size: larger;
+  padding: 14px;
+  text-decoration: 2px solid darkred;
+}
+.header2 {
+  background-color: rgb(40, 38, 38);
+  border-bottom: 2px solid black;
+  padding: 5px;
+  /* width: 100%; */
+  position: static;
+}
+.Lang {
+  padding-left: 10px;
+}
+
+.container {
+  display: inline;
+  color: white;
+  box-sizing: border-box;
+}
+
+.mov {
+  float: inline-start;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+.inputbar {
+  display: inline-flex;
+}
+.inputbar button {
+  float: right;
+  margin: 0;
+  margin-left: 5px;
+}
